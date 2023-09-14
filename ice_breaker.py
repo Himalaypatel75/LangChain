@@ -17,7 +17,7 @@ if __name__ == "__main__":
     )  # store environment variable in .env file
 
     # ----------Getting LinkedIn URL with Agent---------- #
-    linkedin_profile_url = linkedin_lookup_agent(name="Elon Musk")
+    linkedin_profile_url = linkedin_lookup_agent(name="Sam Altman BSE Global")
 
     # ----------With URL get Profile Details---------- #
     summary_template = """

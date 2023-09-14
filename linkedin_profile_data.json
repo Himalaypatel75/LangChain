@@ -1,0 +1,279 @@
+{
+    "public_identifier": "himalay-patel-995499221",
+    "profile_pic_url": null,
+    "background_cover_image_url": null,
+    "first_name": "Himalay",
+    "last_name": "Patel",
+    "full_name": "Himalay Patel",
+    "follower_count": 403,
+    "occupation": "Senior Lead Software Engineer at Skylink Infosolutions\u2122",
+    "headline": "Senior Software Engineer",
+    "summary": "Experienced Full Stack Developer. Skills in Python, LangChain, JAVA, JavaScript, JSP, jQuery, HTML5, CSS, Bootstrap, Angular JS, Jenkins automation, Django Rest, Spring Boot, Rest API, Spring Hibernate.",
+    "country": "IN",
+    "country_full_name": "India",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 12,
+                "year": 2022
+            },
+            "ends_at": null,
+            "company": "Skylink Infosolutions\u2122",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/skylinkinfosolutions/",
+            "title": "Senior Lead Software Engineer",
+            "description": "LangChain, LLM Base Application, Prompt Engineering, Java, Spring Boot, Python, Python automation, Django, Django rest, FastAPI, Angular, React",
+            "location": "Gandhinagar, Gujarat, India",
+            "logo_url": "https://media.licdn.com/dms/image/C4D0BAQHeSmCKEXkElQ/company-logo_400_400/0/1672753358963?e=1702512000&v=beta&t=gMRcdfbnC_kPbZkzE6Q8hLOsAaZTKfczRL6anqWkVX0"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 10,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2022
+            },
+            "company": "XDuce",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/xduce-corporation/",
+            "title": "Sr. Full Stack Developer",
+            "description": null,
+            "location": "Ahmedabad, Gujarat, India",
+            "logo_url": "https://media.licdn.com/dms/image/D4D0BAQGJRwcktH7hTQ/company-logo_400_400/0/1688563740195?e=1702512000&v=beta&t=CEPsInhzZWbTj2dz7q4gfwf0ORavqvamCijO9SMIQJ4"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 4,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 10,
+                "year": 2021
+            },
+            "company": "Rushkar Technology Pvt. Ltd. - Hire Dot Net Developers",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/rushkar-enterprise/",
+            "title": "Jr. Full Stack developer",
+            "description": null,
+            "location": "Ahmedabad, Gujarat, India",
+            "logo_url": "https://media.licdn.com/dms/image/C560BAQGUwlUOufAY9w/company-logo_400_400/0/1519875710188?e=1702512000&v=beta&t=SHyqLBz_QAZfvf623CZAJfwitnVh0c7s8gdpvQfsSps"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2018
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 4,
+                "year": 2020
+            },
+            "company": "MNC Group",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/mnc-group/",
+            "title": "Design Engineer",
+            "description": null,
+            "location": "Ahmedabad, Gujarat, India",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2016
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2018
+            },
+            "company": "MNC",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/matt-noyce-consulting/",
+            "title": "Design Engineer",
+            "description": null,
+            "location": "Ahmedabad, Gujarat, India",
+            "logo_url": "https://media.licdn.com/dms/image/C560BAQEx85W8qaCvqQ/company-logo_400_400/0/1678417011722?e=1702512000&v=beta&t=GoveNoYBgyTp0FqGwYMSlbPc7ISADKzIMar67SFLO0w"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2018
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 1,
+                "year": 2021
+            },
+            "field_of_study": "Marketing/Marketing Management, General",
+            "degree_name": "Master of Business Administration - MBA",
+            "school": "The ICFAI University, Tripura",
+            "school_linkedin_profile_url": null,
+            "description": null,
+            "logo_url": "https://media.licdn.com/dms/image/C4E0BAQF9Gq-ke2EzAg/company-logo_400_400/0/1519865616623?e=1702512000&v=beta&t=Mv9TDDaKpi7PWQPYo98nygL7BuLKd0K0ZC3J-653wgU",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 4,
+                "year": 2011
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 4,
+                "year": 2015
+            },
+            "field_of_study": "Engineering",
+            "degree_name": "Bachelor of Engineering - BE",
+            "school": "Gujarat Technological University (GTU)",
+            "school_linkedin_profile_url": null,
+            "description": null,
+            "logo_url": "https://media.licdn.com/dms/image/C4D0BAQFZfNTVzHKcuQ/company-logo_400_400/0/1677150152282?e=1702512000&v=beta&t=MPt4c0UVCJodgNQrN_3kqRXKsUxvVwsq0G1t-aD950s",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2009
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 1,
+                "year": 2011
+            },
+            "field_of_study": "Science",
+            "degree_name": "H.S.C.",
+            "school": "Vivekanand Vidhyalay School",
+            "school_linkedin_profile_url": null,
+            "description": null,
+            "logo_url": null,
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": null,
+            "ends_at": null,
+            "field_of_study": null,
+            "degree_name": "S.S.C.",
+            "school": "Saraswati Vidhyamandir",
+            "school_linkedin_profile_url": null,
+            "description": null,
+            "logo_url": null,
+            "grade": null,
+            "activities_and_societies": null
+        }
+    ],
+    "languages": [],
+    "accomplishment_organisations": [],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
+    "accomplishment_patents": [],
+    "accomplishment_courses": [],
+    "accomplishment_projects": [],
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2022
+            },
+            "ends_at": null,
+            "name": "Microsoft Certified: Azure Fundamentals",
+            "license_number": null,
+            "display_source": "credly.com",
+            "authority": "Microsoft",
+            "url": "https://www.credly.com/badges/fc83f828-25f4-4ba1-9f69-98af35a26099?source=linked_in_profile"
+        }
+    ],
+    "connections": null,
+    "people_also_viewed": [
+        {
+            "link": "https://www.linkedin.com/in/krishna-soni-139956a3",
+            "name": "Krishna Soni",
+            "summary": "Software Engineer at Cybage Software (Java Developer)",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/sachidanand-upadhyay-18927a131",
+            "name": "Sachidanand Upadhyay",
+            "summary": "Senior Software Engineer at Simform Solutions Pvt. Ltd.",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/shuvro-das-b2236b170",
+            "name": "Shuvro Das",
+            "summary": "Full Stack Developer @XDuce || React Js || Angular || ASP .Net Core || Azure Functions & Devops|| SSMS || Nodejs || 2 Years of Experience",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/vijay-solanki",
+            "name": "Vijay Solanki",
+            "summary": "Frontend Engineer(Freelance) | UX to UI | Full Stack Developer | Startup Enthusiast",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/soumya-ranjan-prusty",
+            "name": "Soumya Ranjan Prusty",
+            "summary": "Python Django developer Software Engineer at Techcronus business solutions pvt ltd",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/harshrajdabhi",
+            "name": "Harsh Dabhi",
+            "summary": "Full Stack Developer at XDuce | Software Developer | Python | DevOps Engineer| Cloud-Computing | RDBMS | Data-Engineer | CI/CD | Gaming and Finance Enthusiast",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/akshay-ingle-1965ba282",
+            "name": "Akshay Ingle",
+            "summary": "Software Engineer at webcorestone software",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/shashank-upadhyaya-6116a8212",
+            "name": "SHASHANK UPADHYAYA",
+            "summary": "shashank",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/vinit-shah-66506a1a0",
+            "name": "Vinit Shah",
+            "summary": "Software Engineer at XDuce",
+            "location": null
+        },
+        {
+            "link": "https://www.linkedin.com/in/ritika-soni-2409a7184",
+            "name": "Ritika Soni",
+            "summary": "Human Resource Executive at Mangalam Information Technologies Pvt Ltd",
+            "location": null
+        }
+    ],
+    "recommendations": [],
+    "activities": [],
+    "similarly_named_profiles": [],
+    "articles": [],
+    "groups": [],
+    "skills": [],
+    "inferred_salary": null,
+    "gender": null,
+    "birth_date": null,
+    "industry": null,
+    "extra": null,
+    "interests": [],
+    "personal_emails": [],
+    "personal_numbers": []
+}

@@ -52,5 +52,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     if data.get("groups"):
         for group_dic in data.get("groups"):
             group_dic.pop("profile_pic_url")
+            # pass
 
     return data

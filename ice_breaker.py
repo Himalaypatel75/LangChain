@@ -1,3 +1,4 @@
+from typing import Tuple
 from langchain import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
@@ -7,7 +8,7 @@ from dotenv import load_dotenv
 import requests
 from agents.twitter_lookup_agent import lookup as twitter_lookup_agent
 from agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
-
+from output_parsors import PersonIntel, person_intel_parser
 from third_parties.linkedin import scrape_linkedin_profile
 from third_parties.twitter import scraper_user_tweets
 from third_parties.twitter_with_stubs import scrape_user_tweets
@@ -15,7 +16,7 @@ from third_parties.twitter_with_stubs import scrape_user_tweets
 load_dotenv()  # loading environment variable from current dictionary
 
 
-def ice_break(name: str):
+def ice_break(name: str) -> Tuple[PersonIntel, str]:
     OPENAI_API_KEY = os.getenv(
         "OPENAI_API_KEY"
     )  # store environment variable in .env file
@@ -33,11 +34,15 @@ def ice_break(name: str):
     1. a short summary
     2. two interesting facts about them
     3. A topic that may interest them
-    4. 2 creative Ice breakers to open a conversation with them"""
+    4. 2 creative Ice breakers to open a conversation with them
+    \n {format_instructions}"""
 
     summary_prompt_template = PromptTemplate(
         input_variables=["linkedin_information", "twitter_information"],
         template=summary_template,
+        partial_variables={
+            "format_instructions": person_intel_parser.get_format_instructions()
+        },
     )
 
     llm = ChatOpenAI(
@@ -49,10 +54,11 @@ def ice_break(name: str):
     result = chain.run(
         linkedin_information=linkedin_data, twitter_information=tweets_data
     )
-    print(result)
-    return result
+    # print(result)
+    return person_intel_parser.parse(result), linkedin_data.get("profile_pic_url")
 
 
 if __name__ == "__main__":
     name = "Eden Marco"
     result = ice_break(name)
+    print(result)

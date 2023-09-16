@@ -14,28 +14,29 @@ from third_parties.twitter_with_stubs import scrape_user_tweets
 
 load_dotenv()  # loading environment variable from current dictionary
 
-name = "Elon Musk"
 
-if __name__ == "__main__":
+def ice_break(name:str):
     OPENAI_API_KEY = os.getenv(
         "OPENAI_API_KEY"
     )  # store environment variable in .env file
 
     # ----------Getting LinkedIn URL with Agent---------- #
-    # linkedin_profile_url = linkedin_lookup_agent(name=name)
-    # linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_profile_url)
-    
+    linkedin_profile_url = linkedin_lookup_agent(name=name)
+    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_profile_url)
+
     twitter_username = twitter_lookup_agent(name=name)
-    tweets = scrape_user_tweets(username=twitter_username, num_tweets=100)
+    tweets_data = scrape_user_tweets(username=twitter_username, num_tweets=100)
 
     # ----------With URL get Profile Details---------- #
     summary_template = """
-    given the information {information} about a person from I want you to create:
+    given the linkedin information {linkedin_information} and twitter {twitter_information} about a person from I want you to create:
     1. a short summary
-    2. two interesting facts about them"""
+    2. two interesting facts about them
+    3. A topic that may interest them
+    4. 2 creative Ice breakers to open a conversation with them"""
 
     summary_prompt_template = PromptTemplate(
-        input_variables=["information"], template=summary_template
+        input_variables=["linkedin_information", "twitter_information"], template=summary_template
     )
 
     llm = ChatOpenAI(
@@ -44,7 +45,11 @@ if __name__ == "__main__":
 
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
+    result = chain.run(linkedin_information=linkedin_data, twitter_information = tweets_data)
+    print(result)
+    return result
 
-    # print(chain.run(information=linkedin_data))
-    
-    print(tweets)
+
+if __name__ == "__main__":
+    name = "Eden Marco"
+    result = ice_break(name)

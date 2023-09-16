@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import json
 
-#THIS IS ONE TIME SCRIPT TO GENERATE JSON FILE.
+# THIS IS ONE TIME SCRIPT TO GENERATE JSON FILE.
 
 load_dotenv()
 NUBELA_API_KEY = os.getenv("NUBELA_API_KEY")

@@ -15,7 +15,7 @@ from third_parties.twitter_with_stubs import scrape_user_tweets
 load_dotenv()  # loading environment variable from current dictionary
 
 
-def ice_break(name:str):
+def ice_break(name: str):
     OPENAI_API_KEY = os.getenv(
         "OPENAI_API_KEY"
     )  # store environment variable in .env file
@@ -36,7 +36,8 @@ def ice_break(name:str):
     4. 2 creative Ice breakers to open a conversation with them"""
 
     summary_prompt_template = PromptTemplate(
-        input_variables=["linkedin_information", "twitter_information"], template=summary_template
+        input_variables=["linkedin_information", "twitter_information"],
+        template=summary_template,
     )
 
     llm = ChatOpenAI(
@@ -45,7 +46,9 @@ def ice_break(name:str):
 
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
-    result = chain.run(linkedin_information=linkedin_data, twitter_information = tweets_data)
+    result = chain.run(
+        linkedin_information=linkedin_data, twitter_information=tweets_data
+    )
     print(result)
     return result
 

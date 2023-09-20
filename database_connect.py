@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 import requests
 from agents.produt_lookup import lookup as product_lookup_agent
-from agents.database_lookup import lookup as database_lookup_agent
+from agents.database_look_up import lookup as database_lookup_agent
 from output_parsors import PersonIntel, person_intel_parser
 from third_parties.linkedin import scrape_linkedin_profile
 from third_parties.twitter import scraper_user_tweets

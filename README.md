@@ -8,3 +8,4 @@ Topic :-
 **Chat Models**
 **LLM Chains**
 **LLM Agents**
+**Retrieval augmentation generation(EMBEDDINGS)**
